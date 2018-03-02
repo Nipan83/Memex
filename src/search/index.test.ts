@@ -9,6 +9,7 @@ import * as oldIndex from './search-index-old'
 import { exportPages as exportOldPages } from './search-index-old/export'
 import { importPage as importNewPage } from './search-index-new/import'
 import * as newIndex from './search-index-new'
+import { global } from 'core-js/library/web/timers';
 
 // Test data (TODO: better way to manage this?)
 const VISIT_3 = Date.now()
