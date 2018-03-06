@@ -10,6 +10,7 @@ import { exportPages as exportOldPages } from './search-index-old/export'
 import { importPage as importNewPage } from './search-index-new/import'
 import * as newIndex from './search-index-new'
 import * as testData from './index.test.data'
+import { ExportedPage } from './import-export';
 
 // Test data (TODO: better way to manage this?)
 const VISIT_3 = Date.now()
