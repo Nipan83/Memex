@@ -1,18 +1,10 @@
 /* eslint-env jest */
 
 import memdown from 'memdown'
-<<<<<<< 42baf54d9442901bb84894987f095bcfadebc22d
 import indexedDB from 'fake-indexeddb'
 import IDBKeyRange from 'fake-indexeddb/lib/FDBKeyRange'
 
 import * as index from './'
-=======
-import encode from 'encoding-down'
-import * as fakeIDBFactory from 'fake-indexeddb'
-import * as fakeIDBKeyRange from 'fake-indexeddb/lib/FDBKeyRange'
-import db from '../pouchdb'
-import * as search from './'
->>>>>>> Start work on migration
 import * as oldIndex from './search-index-old'
 import * as newIndex from './search-index-new'
 
